@@ -1,1 +1,10 @@
-
+1 new visual window
+2 paste
+git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
+cd hardhat-fund-me-fcc
+yarn
+3 new folder 
+4 cd nazwa folderu
+5 code.
+6 yarn
+7 npm install -g solhint
