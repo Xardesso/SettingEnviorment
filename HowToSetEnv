@@ -1,10 +1,52 @@
-1 new visual window
-2 paste
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
-cd hardhat-fund-me-fcc
-yarn
-3 new folder 
-4 cd nazwa folderu
-5 code.
-6 yarn
-7 npm install -g solhint
+extension
+solidity hardhat nomic foundation
+pettier code formater
+
+
+
+
+
+
+
+
+
+comands
+1
+npm install --global yarn
+2
+ yarn init
+3
+usuwamy main
+4
+yarn add --dev hardhat
+5 
+yarn hardhat
+java project
+skip
+y
+6
+yarn install --save-dev @nomicfoundation/hardhat-toolbox
+7
+wklej to w package json
+ "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3"
+  }
+  8
+  yarn add @nomicfoundation/hardhat-toolbox --dev
+  yarn add @nomicfoundation/hardhat-network-helpers@^1.0.0
+npm install --save-dev "@nomicfoundation/hardhat-chai-matchers@^1.0.0" "@types/mocha@^9.1.0" "@typechain/hardhat@^6.1.2" "hardhat-gas-reporter@^1.0.8" "solidity-coverage@^0.8.1" "ts-node@>=8.0.0" "typescript@>=4.5.0"
+yarn add --dev @nomicfoundation/hardhat-toolbox @nomicfoundation/hardhat-network-helpers @nomicfoundation/hardhat-chai-matchers @nomiclabs/hardhat-ethers @nomiclabs/hardhat-etherscan chai ethers hardhat-gas-reporter solidity-coverage @typechain/hardhat typechain @typechain/ethers-v5 @ethersproject/abi @ethersproject/providers
+npm uninstall @nomiclabs/hardhat-waffle ethereum-waffle
+npm install --save-dev @nomicfoundation/hardhat-chai-matchers
+yarn add --dev dotenv
+yarn add --dev @nomiclabs/hardhat-etherscan
+yarn add hardhat-gas-reporter --dev
+yarn add --dev solidity coverage
+9 mozliwe ze potrzebne ale idk
+yarn add --dev ethereum-waffle
