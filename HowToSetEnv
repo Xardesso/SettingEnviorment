@@ -50,3 +50,5 @@ yarn add hardhat-gas-reporter --dev
 yarn add --dev solidity coverage
 9 mozliwe ze potrzebne ale idk
 yarn add --dev ethereum-waffle
+yarn add --dev hardhat-deploy
+yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
